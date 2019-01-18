@@ -10,6 +10,9 @@
 
 \addbibresource{bibliography.bib}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -69,3 +72,7 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\emailref}[1]{\href{mailto:#1}{\texttt{#1}}}
+\newcommand{\telref}[1]{\href{tel:#1}{\texttt{#1}}}
+\newcommand{\urlref}[1]{\href{#1}{\texttt{#1}}}
